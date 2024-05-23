@@ -1,0 +1,32 @@
+.header-container{
+    height: 100vh;
+    background-color: var(--background-color);
+    background-image: url(./images/);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.nav{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    color: white;
+   
+    font-size: 36px;
+}
+#nav-img{
+    height: 50px;
+    width: 50px;
+}
+#right-menu-icon-id{
+    width: 175px;
+    text-align: center;
+}
+
+@media only screen and (min-width:200px) and (max-width:576px) {
+    .nav{
+        font-size: 16px;
+    }
+    
+}
